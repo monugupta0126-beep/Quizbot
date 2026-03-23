@@ -51,7 +51,8 @@ load_dotenv()
 
 BOT_TOKEN  = os.getenv("8753514994:AAGbwCwus8v7KBeNHN6tXW2cZIE7vLXXCX8", "")   # PTB scheduler bot token
 MONGO_URI_1 = os.getenv("mongodb+srv://monutech:<db_password>@monutech.hjasn6b.mongodb.net/?appName=monutech", "")
-MONGO_URI_2 = os.getenv("MONGO_URI_2", "")
+MONGO_URI_2 = os.getenv("MONGO_URI_2", "mongodb+srv://monutech:<db_password>@monutech.hjasn6b.mongodb.net/?appName=monutech
+")
 
 MAX_CONCURRENT_POLLS = 5000  # Max polls per chat simultaneously
 POLL_SEND_DELAY = 0.1  # Delay between polls (anti-flood)
