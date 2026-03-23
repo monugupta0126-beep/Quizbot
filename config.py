@@ -18,16 +18,18 @@ load_dotenv()
 
 # ── Pyrogram (main.py bot) ────────────────────────────────────────────────────
 API_ID    = int(os.getenv("API_ID", "0"))
-API_HASH  = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+API_HASH  = os.getenv("API_HASH", "0")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8753514994:AAGbwCwus8v7KBeNHN6tXW2cZIE7vLXXCX8")
 
 # ── Telegram — secondary bot token used for HTML/API calls ───────────────────
-BOT_TOKEN_2 = os.getenv("BOT_TOKEN_2", "")
+BOT_TOKEN_2 = os.getenv("BOT_TOKEN_2", "8753514994:AAGbwCwus8v7KBeNHN6tXW2cZIE7vLXXCX8")
 
 # ── MongoDB ───────────────────────────────────────────────────────────────────
-MONGO_URI = os.getenv("MONGO_URI", "")          # Primary connection string
-MONGO_URI_2 = os.getenv("MONGO_URI_2", "")      # Secondary / replica connection
-MONGO_URIX = os.getenv("MONGO_URIX", "")        # Quizzes async collection URI
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://monutech:<db_password>@monutech.hjasn6b.mongodb.net/?appName=monutech
+")          # Primary connection string
+MONGO_URI_2 = os.getenv("MONGO_URI_2", "mongodb+srv://monutech:<db_password>@monutech.hjasn6b.mongodb.net/?appName=monutech
+")      # Secondary / replica connection
+MONGO_URIX = os.getenv("MONGO_URIX", "0")        # Quizzes async collection URI
 DB_NAME   = os.getenv("DB_NAME", "quiz_bot")
 
 # ── MySQL (Quizbot web panel) ───────────────────────────────────────
