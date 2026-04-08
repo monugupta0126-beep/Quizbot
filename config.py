@@ -17,8 +17,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ── Pyrogram (main.py bot) ────────────────────────────────────────────────────
-API_ID    = int(os.getenv("API_ID", "0"))
-API_HASH  = os.getenv("API_HASH", "0")
+API_ID    = int(os.getenv("API_ID", "31904106"))
+API_HASH  = os.getenv("API_HASH", "f6038b8f2567cfd6e9b4c2223255de15")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8753514994:AAGbwCwus8v7KBeNHN6tXW2cZIE7vLXXCX8")
 
 # ── Telegram — secondary bot token used for HTML/API calls ───────────────────
